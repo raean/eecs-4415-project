@@ -7,10 +7,10 @@ from tweepy import API
 from tweepy import Stream
 
 # Setting up the serial keys and stuff:
-consumer_key="skrtPlkUrqc3zqskPiup0Hl30"
-consumer_secret="og2hCbNeWkhihoiLuIIJo1jY9qJcUPboHNVRO4FE6K0rTCqSLS"
-access_token="785116862-zT7wQtAefZQe7RY2Ni1kODUGpfrk5rIjPPXpM2CK"
-access_token_secret="xJRFeS1W40WCkRVdeqPTZaAwjKO266ndRxoaQP2R99Tnh"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
 
 # A listener that handles tweets received from the Twitter stream. 
 # This listener prints tweets and then forwards them to a local port for processing in the spark app.
